@@ -9,10 +9,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Chinmaya  Kausik | stochastic rambling</title>
+    <title>Chinmaya  Kausik | idris</title>
     <meta name="author" content="Chinmaya  Kausik" />
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-" />
+    <meta name="description" content="Interactive proofs in Idris, 2019." />
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
 
 
@@ -33,7 +32,7 @@
     <link rel="shortcut icon" href="/assets/img/website_icon.jpg"/>
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://chinmaya-kausik.github.io/blog/">
+    <link rel="canonical" href="https://chinmaya-kausik.github.io/projects/idris_proofs/">
     
     <!-- Dark Mode -->
     
@@ -100,8 +99,8 @@
               </li>
 
               <!-- Toogle theme mode -->
-              <div class = "toggle-container">
-                <a id = "light-toggle">
+              <div class="toggle-container">
+                <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
                 </a>
@@ -115,70 +114,38 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- page.html -->
+        <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+          <header class="post-header">
+            <h1 class="post-title">idris</h1>
+            <p class="post-description">Interactive proofs in Idris, 2019.</p>
+          </header>
+
+          <article>
+            <p>Implemented proofs of various (relatively) elementary mathematical results in Idris, for the Logic, Types and Spaces course at IISc.</p>
+
+<p><a href="https://github.com/siddhartha-gadgil/LTS2019/tree/master/Code" target="_blank" rel="noopener noreferrer">Link</a> to the code on Prof. Gadgil’s repository. <a href="https://github.com/siddhartha-gadgil/LTS2019/blob/master/_reports/chinmaya/chinmaya.md" target="_blank" rel="noopener noreferrer">Link</a> to a file listing my contributions.</p>
+
+<p><strong>Positives:</strong> Some amazing hands on experience with interactive theorem proving. A funny sense of validation coming from a computer verifying a fact known to you to be trivial. My first experience with Git!</p>
+
+<p><strong>Negatives:</strong> A lot of elementary proofs were far more tedious than expected. While we expected a reasonable gap between human and computer-assisted proofs, there were (possibly never clearly stated) ways we felt Idris could be redesigned to make life easier.</p>
+
+<p><strong>Technical takeaways:</strong> Programming in a dependently typed language. Mixing algorithms for establishing elementary theorems with proofs that they work is probably a good way to set one up for program verification.</p>
+
+<p><strong>Meta takeaways:</strong> My first experience working on a large computational project. I got hands-on experience with the practice of dividing up a truly huge problem into smaller ones and tackling them separately.</p>
 
 
-  <ul class="post-list">
-    
+          </article>
 
-    
-    
-    
-    
-
-    <li>
-      <h3>
-        
-          <a class="post-title" href="/blog/2015/math/">a post with math</a>
-        
-      </h3>
-      <p>an example of a blog post with some math</p>
-      <p class="post-meta"> 1 min read &nbsp; &middot; &nbsp;
-        October 20, 2015
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2015">
-          <i class="fas fa-calendar fa-sm"></i> 2015 </a>
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/tag/formatting">
-              <i class="fas fa-hashtag fa-sm"></i> formatting</a> &nbsp;
-              
-            <a href="/blog/tag/math">
-              <i class="fas fa-hashtag fa-sm"></i> math</a> &nbsp;
-              
-          
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/category/sample-posts">
-              <i class="fas fa-tag fa-sm"></i> sample-posts</a> &nbsp;
-              
-          
-    </p>
-    </li>
-
-    
-  </ul>
-
-  
-
-</div>
+        </div>
 
     </div>
 
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2023 Chinmaya  Kausik. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+        © Copyright 2023 Chinmaya  Kausik. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
 Last updated: December 14, 2023.
       </div>
     </footer>

@@ -9,10 +9,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Chinmaya  Kausik | stochastic rambling</title>
+    <title>Chinmaya  Kausik | scala_knots</title>
     <meta name="author" content="Chinmaya  Kausik" />
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-" />
+    <meta name="description" content="Knot algorithms in Scala, 2020." />
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
 
 
@@ -33,7 +32,7 @@
     <link rel="shortcut icon" href="/assets/img/website_icon.jpg"/>
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://chinmaya-kausik.github.io/blog/">
+    <link rel="canonical" href="https://chinmaya-kausik.github.io/projects/scala_knots/">
     
     <!-- Dark Mode -->
     
@@ -100,8 +99,8 @@
               </li>
 
               <!-- Toogle theme mode -->
-              <div class = "toggle-container">
-                <a id = "light-toggle">
+              <div class="toggle-container">
+                <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
                 </a>
@@ -115,70 +114,37 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- page.html -->
+        <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+          <header class="post-header">
+            <h1 class="post-title">scala_knots</h1>
+            <p class="post-description">Knot algorithms in Scala, 2020.</p>
+          </header>
 
+          <article>
+            <p>Implemented the generalized Seifert matrix algorithm from my summer research in Scala.</p>
 
-  <ul class="post-list">
-    
+<p><a href="https://github.com/Chinmaya-Kausik/scala_knots" target="_blank" rel="noopener noreferrer">Link</a> to the Github Repository.</p>
 
-    
-    
-    
-    
+<p><strong>Positives:</strong> It was great to see my algorithm in action! Scala’s static-typing makes a lot of errors very easy to spot. A certain number of things are far more intuitive with tail recursion and functional programming.</p>
 
-    <li>
-      <h3>
-        
-          <a class="post-title" href="/blog/2015/math/">a post with math</a>
-        
-      </h3>
-      <p>an example of a blog post with some math</p>
-      <p class="post-meta"> 1 min read &nbsp; &middot; &nbsp;
-        October 20, 2015
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2015">
-          <i class="fas fa-calendar fa-sm"></i> 2015 </a>
+<p><strong>Negatives:</strong> Some parts of the algorithm are far more natural to implement as for loops, so using things like map and flatmap constantly in Scala can get annoying for them. I was obsessed with reducing the number of lines I wrote, so I often had monstrous looking lines which were occasionally hard to read, even for me! It was super hard to find good Hermitian eigenvalue implementations. I didn’t create a good debugging setup, when it would have been much more convenient later on, had I put in the effort to climb that potential well and do it.</p>
 
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/tag/formatting">
-              <i class="fas fa-hashtag fa-sm"></i> formatting</a> &nbsp;
-              
-            <a href="/blog/tag/math">
-              <i class="fas fa-hashtag fa-sm"></i> math</a> &nbsp;
-              
-          
+<p><strong>Technical takeaways:</strong> Functional programming for a moderate scale project. The importance of commenting. Looking for and implementing efficient algorithms on my own, like the Bareiss algorithm that vastly sped up symbolic determinants.</p>
 
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/category/sample-posts">
-              <i class="fas fa-tag fa-sm"></i> sample-posts</a> &nbsp;
-              
-          
-    </p>
-    </li>
+<p><strong>Meta takeaways:</strong> Another data point for my 2022 conclusion that for long-term commitments, I like working on more tangible things, like an actual program implementing my algorithm. Or a constructive proof. It seems like I enjoy the abstract more as a means to a tangible end.</p>
 
-    
-  </ul>
+          </article>
 
-  
-
-</div>
+        </div>
 
     </div>
 
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2023 Chinmaya  Kausik. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+        © Copyright 2023 Chinmaya  Kausik. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
 Last updated: December 14, 2023.
       </div>
     </footer>

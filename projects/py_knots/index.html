@@ -9,10 +9,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Chinmaya  Kausik | stochastic rambling</title>
+    <title>Chinmaya  Kausik | py_knots</title>
     <meta name="author" content="Chinmaya  Kausik" />
-    <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
-" />
+    <meta name="description" content="Knot algorithms in Python, 2022." />
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website" />
 
 
@@ -33,7 +32,7 @@
     <link rel="shortcut icon" href="/assets/img/website_icon.jpg"/>
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://chinmaya-kausik.github.io/blog/">
+    <link rel="canonical" href="https://chinmaya-kausik.github.io/projects/py_knots/">
     
     <!-- Dark Mode -->
     
@@ -100,8 +99,8 @@
               </li>
 
               <!-- Toogle theme mode -->
-              <div class = "toggle-container">
-                <a id = "light-toggle">
+              <div class="toggle-container">
+                <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
                 </a>
@@ -115,70 +114,38 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- page.html -->
+        <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>a simple whitespace theme for academics</h2>
-  </div>
+          <header class="post-header">
+            <h1 class="post-title">py_knots</h1>
+            <p class="post-description">Knot algorithms in Python, 2022.</p>
+          </header>
+
+          <article>
+            <p>Re-implemented the generalized Seifert matrix algorithm from my summer research in Python, upon discovering several bottlenecks coming from the scarcity of good Scala libraries.</p>
+
+<p><a href="https://github.com/Chinmaya-Kausik/py_knots" target="_blank" rel="noopener noreferrer">Link</a> to the Github Repository.</p>
+
+<p><strong>Positives:</strong> Getting back to Python after so many years was fun! The wealth of libraries was extremely convenient, especially matplotlib and linear algebra libraries. Had a much better experience this time, now that I rigorously organize my programming habits and code. My code was also able to conveniently accommodate optimizations added in later, because of the way I had organized it. Finally switched to Linux on one of my laptops. Using Tkinter with grid-based layout arrangement was not the most fun, but it worked out.</p>
+
+<p><strong>Negatives:</strong> Sympy. The Bareiss determinant algorithm has trouble with large matrices since sympy’s division of multivariable polynomials is not very efficient. Will implement the Bareiss determinant in C using the FLINT library’s extremely fast multivariable polynomial division and then use ctypes to import it to Python.</p>
+
+<p><strong>Technical takeaways:</strong> Python refresher. Objected oriented GUI design. More experience with Tkinter, sympy, numpy and matplotlib. PEP8-aligned Python code formatting. Good programming practices. More features for OOP in Python, like the @dataclass decorator.</p>
+
+<p><strong>Meta takeaways:</strong> A reminder that often, starting from scratch (Python) is much better than wading through vastly inefficient setups created by sunk costs (Scala). Much like my experience with solving math problems, it can be good to take an exploratory leap of faith with confidence. If things still aren’t working out, it can help to increase your exploration time for a given idea, which takes courage. The benefits of exploring start outweighing the benefits of exploiting your current comfort zone, the longer you stay in the latter without fruit.</p>
 
 
-  <ul class="post-list">
-    
+          </article>
 
-    
-    
-    
-    
-
-    <li>
-      <h3>
-        
-          <a class="post-title" href="/blog/2015/math/">a post with math</a>
-        
-      </h3>
-      <p>an example of a blog post with some math</p>
-      <p class="post-meta"> 1 min read &nbsp; &middot; &nbsp;
-        October 20, 2015
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2015">
-          <i class="fas fa-calendar fa-sm"></i> 2015 </a>
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/tag/formatting">
-              <i class="fas fa-hashtag fa-sm"></i> formatting</a> &nbsp;
-              
-            <a href="/blog/tag/math">
-              <i class="fas fa-hashtag fa-sm"></i> math</a> &nbsp;
-              
-          
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/category/sample-posts">
-              <i class="fas fa-tag fa-sm"></i> sample-posts</a> &nbsp;
-              
-          
-    </p>
-    </li>
-
-    
-  </ul>
-
-  
-
-</div>
+        </div>
 
     </div>
 
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2023 Chinmaya  Kausik. Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+        © Copyright 2023 Chinmaya  Kausik. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" target="_blank" rel="noopener noreferrer">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer">GitHub Pages</a>.
 Last updated: December 14, 2023.
       </div>
     </footer>
