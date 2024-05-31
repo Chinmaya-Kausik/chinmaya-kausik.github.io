@@ -1,8 +1,8 @@
 ---
 layout: page
-permalink: /projects/
-title: projects
-description: current projects and past projects with post-mortems. 
+permalink: /Projects/
+title: Projects
+description: Current and past projects.
 display_categories: [graduate, undergraduate]
 horizontal: false
 nav_num: 2
