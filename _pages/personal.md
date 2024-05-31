@@ -46,5 +46,5 @@ This list will grow as I remember books and poetry I particularly enjoyed.
 
 I enjoy making Kusudamas. Someday I would love to make [Hideo Komatsu's horse](https://origami-art.us/instructions/209-horse-hideo-komatsu). Here's my first Kusudama from 2018!
 
-{% include figure.liquid path="assets/img/origami.jpg" title="First Kusudama!" class="img-fluid rounded z-depth-1" width="20" %}
+{% include figure.liquid path="assets/img/origami.jpg" title="First Kusudama!" class="img-fluid rounded z-depth-1" width="500" %}
 
