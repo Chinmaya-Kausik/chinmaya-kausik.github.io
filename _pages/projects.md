@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /Projects/
+permalink: /projects/
 title: Projects
 description: Current and past projects.
 display_categories: [graduate, undergraduate]
