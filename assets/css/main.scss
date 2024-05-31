@@ -23,3 +23,9 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+@media (max-width: 768px) {
+  .project-card {
+    margin-bottom: 10px;  /* Smaller space on mobile devices */
+  }
+}
