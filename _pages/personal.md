@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /Personal/
+permalink: /personal/
 title: Personal
 description: Other stuff about me.
 nav_num: 6
