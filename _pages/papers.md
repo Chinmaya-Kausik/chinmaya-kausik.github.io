@@ -23,7 +23,7 @@ nav: true
 
 * Offline Policy Evaluation and Optimization under Confounding
 
-  ___Chinmaya Kausik__*, Yangyi Lu*, Kevin Tan*, Yixin Wang, Ambuj Tewari_. AISTATS, 2024. [[AISTATS]](https://proceedings.mlr.press/v238/kausik24a.html) [[arXiv]](https://arxiv.org/abs/2211.16583) 
+  ___Chinmaya Kausik*__, _Yangyi Lu*_, Kevin Tan*, Yixin Wang, Ambuj Tewari_. AISTATS, 2024. [[AISTATS]](https://proceedings.mlr.press/v238/kausik24a.html) [[arXiv]](https://arxiv.org/abs/2211.16583) 
 
 * Double Descent and Overfitting under Noisy Inputs and Distribution Shift for Linear Denoisers
 
