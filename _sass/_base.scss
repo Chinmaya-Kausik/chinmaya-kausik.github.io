@@ -603,6 +603,13 @@ footer.sticky-bottom {
 // Projects
 
 .projects {
+  .grid-sizer,
+  .grid-item {
+    width: 250px;
+    margin-bottom: 20px; // Increased from 10px
+    margin-right: 20px; // Added for horizontal spacing
+  }
+
   a {
     text-decoration: none;
 
@@ -619,12 +626,6 @@ footer.sticky-bottom {
     }
   }
 
-  .grid-sizer,
-  .grid-item {
-    width: 250px;
-    margin-bottom: 10px;
-  }
-
   h2.category {
     color: var(--global-divider-color);
     border-bottom: 1px solid var(--global-divider-color);
@@ -632,6 +633,14 @@ footer.sticky-bottom {
     margin-top: 2rem;
     margin-bottom: 1rem;
     text-align: right;
+  }
+
+  // Media Query for Responsive Adjustments
+  @media only screen and (max-width: 768px) {
+    .grid-item {
+      margin-bottom: 15px; // Less space on smaller screens
+      margin-right: 15px; // Less space on smaller screens
+    }
   }
 }
 
