@@ -33,8 +33,15 @@ body.sticky-bottom-footer {
 
 // Profile
 .profile {
+  float: right; // Aligns the container to the right
+  margin-top: 0; // Ensures there is no margin on top, aligning it at the top
+  position: relative; // Keeps the positioning relative to its normal flow
+  top: 0; // Ensures it sticks to the top of its container
+
+  // Additional styles can be nested here, e.g., for images
   img {
-    width: 100%;
+    display: block; // Makes images block to fill the container, if needed
+    max-width: 100%; // Ensures images are responsive and fit within the container
   }
 }
 
