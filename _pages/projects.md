@@ -5,7 +5,7 @@ title: Projects
 description: Current and past projects.
 display_categories: [graduate, undergraduate]
 horizontal: false
-nav_num: 3
+nav_order: 3
 nav: true
 ---
 
