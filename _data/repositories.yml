@@ -1,12 +1,14 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - Chinmaya-Kausik
 
 github_repos:
-  - alshedivat/al-folio
-  - twbs/bootstrap
-  - jekyll/jekyll
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - jpswalsh/academicons
-  - mathjax/MathJax
+  - Chinmaya-Kausik/RLHF-comparison
+  - Chinmaya-Kausik/in-context-learning-small
+  - Chinmaya-Kausik/learning_mixtures_lds_py
+  - kdv97/ice-cube 
+  - Chinmaya-Kausik/bandit-playground
+  - Chinmaya-Kausik/rl-playground
+  - Chinmaya-Kausik/py_knots
+  - Chinmaya-Kausik/scala_knots
+  - siddhartha-gadgil/Superficial
+  - siddhartha-gadgil/ProvingGround
