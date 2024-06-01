@@ -1,8 +1,23 @@
 ---
 ---
+
 @inproceedings{kausik2023learning, 
 title={Learning mixtures of Markov chains and MDPs}, 
 author={Kausik, Chinmaya and Tan, Kevin and Tewari, Ambuj}, 
 booktitle={International Conference on Machine Learning}, 
 pages={15970--16017}, year={2023}, 
-organization={PMLR} }
+organization={PMLR},
+url={https://proceedings.mlr.press/v202/kausik23a.html},
+abstract = {We present an algorithm for learning mixtures of Markov chains and Markov decision processes (MDPs) from short unlabeled trajectories. Specifically, our method handles mixtures of Markov chains with optional control input by going through a multi-step process, involving (1) a subspace estimation step, (2) spectral clustering of trajectories using "pairwise distance estimators," along with refinement using the EM algorithm, (3) a model estimation step, and (4) a classification step for predicting labels of new trajectories. We provide end-to-end performance guarantees, where we only explicitly require the length of trajectories to be linear in the number of states and the number of trajectories to be linear in a mixing time parameter. Experimental results support these guarantees, where we attain 96.6% average accuracy on a mixture of two MDPs in gridworld, outperforming the EM algorithm with random initialization (73.2% average accuracy). We also significantly outperform the EM algorithm on real data from the LastFM song dataset.}}
+
+
+@inproceedings{kausik2024offline,
+  title={Offline policy evaluation and optimization under confounding},
+  author={Kausik, Chinmaya and Lu, Yangyi and Tan, Kevin and Makar, Maggie and Wang, Yixin and Tewari, Ambuj},
+  booktitle={International Conference on Artificial Intelligence and Statistics},
+  pages={1459--1467},
+  year={2024},
+  organization={PMLR},
+  url={https://proceedings.mlr.press/v238/kausik24a.html},
+  abstract={Evaluating and optimizing policies in the presence of unobserved confounders is a problem of growing interest in offline reinforcement learning. Using conventional methods for offline RL in the presence of confounding can not only lead to poor decisions and poor policies, but also have disastrous effects in critical applications such as healthcare and education. We map out the landscape of offline policy evaluation for confounded MDPs, distinguishing assumptions on confounding based on whether they are memoryless and on their effect on the data-collection policies. We characterize settings where consistent value estimates are provably not achievable, and provide algorithms with guarantees to instead estimate lower bounds on the value. When consistent estimates are achievable, we provide algorithms for value estimation with sample complexity guarantees. We also present new algorithms for offline policy improvement and prove local convergence guarantees. Finally, we experimentally evaluate our algorithms on both a gridworld environment and a simulated healthcare setting of managing sepsis patients. In gridworld, our model-based method provides tighter lower bounds than existing methods, while in the sepsis simulator, we demonstrate the effectiveness of our method and investigate the importance of a clustering sub-routine.}
+}
