@@ -23,18 +23,3 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
-
-@media (max-width: 768px) {
-  .project-card {
-    margin-bottom: 10px;  /* Smaller space on mobile devices */
-  }
-}
-
-<style>
-  .profile {
-    float: right;    /* Aligns the container to the right */
-    margin-top: 0;   /* Ensures there is no margin on top, aligning it at the top */
-    position: relative;  /* Ensures the positioning is relative to its normal position */
-    top: 0;    /* Aligns at the top of its containing element */
-  }
-</style>
