@@ -3,7 +3,7 @@ layout: page
 permalink: /talks and teaching/
 title: Talks and Teaching
 description: Talks given and courses taught.
-nav_num: 5
+nav_order: 5
 nav: true
 ---
 
