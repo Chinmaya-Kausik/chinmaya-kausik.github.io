@@ -7,15 +7,6 @@ importance: 1
 category: undergraduate
 ---
 
-Re-implemented the generalized Seifert matrix algorithm from my summer research in Python, upon discovering several bottlenecks coming from the scarcity of good Scala libraries. 
+In the mathematical field of topology, knots are "knotted loops" that can be put in 3D space. They often arise in surprising contexts, including fields like  algebra and analysis. We consider two knots to be the same if they can be deformed into each other without cutting the "thread" of the loop or passing it through itself. This is relevant to studying the inherent shape of the knot, so to speak. It is natural to then ask - how do we describe a knot? Is a description of a knot unique? If not, then how can we ascertain when two knots are equal? Typically, we describe a knot using an algebraic description of its "shadow" under arbitrary lighting, while preserving information on which strands cross over in an intersection. Such "shadows" (called knot projectsions) have invariant quantities that stay the same for two shadows of the same knot. Many such quantities can be computed using a matrix associated to each knot, called its generalkized Seifert matrix. I designed an implemented an algorithm to compute the generalized Seifert matrix for my summer research, in Python.
 
 [Link](https://github.com/Chinmaya-Kausik/py_knots) to the Github Repository.
-
-**Positives:** Getting back to Python after so many years was fun! The wealth of libraries was extremely convenient, especially matplotlib and linear algebra libraries. Had a much better experience this time, now that I rigorously organize my programming habits and code. My code was also able to conveniently accommodate optimizations added in later, because of the way I had organized it. Finally switched to Linux on one of my laptops. Using Tkinter with grid-based layout arrangement was not the most fun, but it worked out.
-
-**Negatives:** Sympy. The Bareiss determinant algorithm has trouble with large matrices since sympy's division of multivariable polynomials is not very efficient. Will implement the Bareiss determinant in C using the FLINT library's extremely fast multivariable polynomial division and then use ctypes to import it to Python.
-
-**Technical takeaways:** Python refresher. Objected oriented GUI design. More experience with Tkinter, sympy, numpy and matplotlib. PEP8-aligned Python code formatting. Good programming practices. More features for OOP in Python, like the @dataclass decorator. 
-
-**Meta takeaways:** A reminder that often, starting from scratch (Python) is much better than wading through vastly inefficient setups created by sunk costs (Scala). Much like my experience with solving math problems, it can be good to take an exploratory leap of faith with confidence. If things still aren't working out, it can help to increase your exploration time for a given idea, which takes courage. The benefits of exploring start outweighing the benefits of exploiting your current comfort zone, the longer you stay in the latter without fruit.
-
