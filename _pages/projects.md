@@ -2,7 +2,7 @@
 layout: page
 permalink: /projects/
 title: Projects
-description: Current and past projects.
+description: Current and past projects. Content under construction.
 display_categories: [graduate, undergraduate]
 horizontal: false
 nav_order: 3
