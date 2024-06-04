@@ -15,7 +15,7 @@ nav: true
 3. Holomorphic Differentials, Measured Foliations and the Hubbard-Masur Theorem. Undergraduate thesis defence, 2021. [Slides](https://drive.google.com/file/d/1-juD-iqgaag6Nun5l4RebZx4oNhzYSc1/view?usp=sharing)
 4. An Algorithm for the Generalized Seifert Matrix. Regensburg internal seminar, 2020. [Slides](https://drive.google.com/file/d/1H4rFem1Rx36fN7Fv-CKTXhALzkWXTgG8/view?usp=sharing). The algorithm has been simplified since.
 
-#### Minor talks
+#### Minor ML talks
 1. A Tour of Practical RLHF Methods, CASI Reading Group, 2024.
 2. End-to-End Retrieval Augmented Generation, EECS 598, 2024.
 4. Bayesian Design Principles for Frequentist Sequential Decision-Making, CASI Reading Group, 2023.
