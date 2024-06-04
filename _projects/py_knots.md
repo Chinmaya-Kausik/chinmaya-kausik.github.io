@@ -22,4 +22,4 @@ Before our work, there was an algorithm and program to compute the usual Seifert
 4. Conduct a random search for a minimal homology basis of the braid's Seifert surface, which helps understand how "minimally complex" a Seifert surface associated to the knot/link has to be.
 
 ### Code
-I was quite proud of the code quality back when I wrote it, since it was my first large-scale solo project. You can find the code and the downloadable .exe file in [this](https://github.com/Chinmaya-Kausik/py_knots) Github Repository.
+I was quite proud of the code quality back when I wrote it, since it was my first large-scale solo project. You can find the Python code and the downloadable .exe file in [this](https://github.com/Chinmaya-Kausik/py_knots) Github Repository. The less well done and non-production ready Scala code is [here](https://github.com/Chinmaya-Kausik/scala_knots).
