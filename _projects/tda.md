@@ -7,12 +7,15 @@ importance: 1
 category: undergraduate
 ---
 
-Analysed United Nations General Assembly votes over the years using the Kepler Mapper. Computational Topology course project. [Presentation slides](https://drive.google.com/file/d/1gKTEKSmHxGr-nKpcJysoUi0Y8ftwjFe4/view?usp=sharing)
+### Introduction
+* Topological data analysis is a way to find "higher order" structure in data by connecting not just _pairs_ of similar datapoints, but also keeping track of how these pairs build up to groups of three, four, etc.
+* This can help discover natural clusters in data, but also unearth how closely tied the datapoints in the cluster are, and provide ways to quantiy the answers to such questions using algebraic topology.
 
-**Positives:** Finally got hands on data analysis experience. Was very happy when it resonated with known historical facts. 
+### What I did
+* In a team, we analysed United Nations General Assembly votes over the years using the Kepler Mapper.
+* This involved some non-trivial preprocessing and cleaning of a dataset of raw UN general assembly votes.
+* I learnt that topological data analysis is better viewed as a sophisticated version of clustering with qualitative input, as opposed to a lot of fancy higher order topology.
+* Since this involved choosing some hyperparameters, we statistically verified our results to make sure and guarantee parameter tuning didn't artifically manufacture them via p-hacking and other unsound methods.
 
-**Negatives:** Not a lot of higher order topology, often making it just a sophisticated clustering algorithm. Actually saw how fishy the work of manually tuning parameters in data analysis can be.
-
-**Technical takeaways:** Preprocessing data - smoothing out issues systematically in large datasets. Using data analysis tools. Statistically verifying results to make sure parameter tuning didn't artifically manufacture them.
-
-**Meta takeaways:** Information hygiene is extremely important in data analysis. Be very vigilant about how you concluded what you think you know. Make sure you have ways to check that you are definitely not observing the result of a different, more ubiquitous probability distribution over your sample space (say, the uniform one). 
+### Presentation Slides
+ [Link here.](https://drive.google.com/file/d/1gKTEKSmHxGr-nKpcJysoUi0Y8ftwjFe4/view?usp=sharing)
