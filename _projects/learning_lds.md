@@ -15,9 +15,8 @@ category: graduate
 * This is a hard chicken-and-egg problem - if one knew the clusters of trajectories coming from the same model, one could learn the underlying set of models. If one knew the set of models, one could determine clusters easily. Doing both without knowing either is a hard task solved by this paper, for which they essentially develop a principled dimensionality reduction method to reduce the dimension of the time series data before performing usual clustering.
 
 ### What I did
-* This was a final team project for the graduate machine learning course - I chose this problem because of how mathematically and empirically rich it was.
-* I explained the theoretical intuition to my teammates
-* Wrote about a third of the code.
+* This was a final team project for the graduate machine learning course - I chose this problem because of how mathematically and empirically rich it was. To start off, I explained the theoretical intuition to my teammates and familiarized everyone with the paper.
+* I wrote about a third of the code.
 * I found important discrepancies between theory and experiments (especially in regard to the numerical linear algebra choices made) and corresponded with the authors about it.
 * I designed some new theory-informed heuristics to determine hyperparameters like the number of models underlying the dataset, which is also a priori unknown in practice. We then implemented them and had satisfactory results, recovering the initial number of models chosen by the authors in their experiments.
 * We performed an ablation study to test the performance of this method against using random projections for dimensionality reduction. These are known to perform well in some scenarios, but do much worse than Chen and Poor's method in our case.
