@@ -2,7 +2,7 @@
 layout: page
 title: In-Context Learning in LLMs for Simple Functions
 description: A project conducting a deeper examination of in-context learning for simple functions using small LLMs. Builds off of experiments by Garg et al.
-img: assets/img/rlhf_project.png
+img: assets/img/in_context_learning_project.png
 importance: 1
 category: graduate
 ---
