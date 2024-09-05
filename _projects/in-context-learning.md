@@ -19,6 +19,7 @@ category: graduate
 * **Changing distribution of training tasks:** To see what happens when the training distribution is changed, I used a non-isotropic covariance matrix for the training weights as well as the test weights. This time, the transformer performed **better** than OLS. Some thought revealed that its performance replicated that of weighted least squares regression, where the inverse of the covariance matrix gives the weights.
 * **Developing a hypothesis for in-context learning:** This signals that the transformer was behaving as if it had **learnt the prior over tasks**, and was perhaps merely performing Bayesian inference over tasks when learning in context.
 * **Supporting hypothesis by training over a small discrete task distribution:** I also performed this experiment using weights sampled from a discrete distribution with small finite support. In this case, the transformer learned the weights with even fewer samples in general, further supporting this hypothesis.
+* **Continuation:** I intend to resume work on this project in the future and design more conclusive tests supporting the hypothesis that in context learning can be viewed as Bayesian inference over priors learnt during training.
 
 ### Code
 [Link to repository here.](https://github.com/kkanarios32/TaxonomyRLHF)
