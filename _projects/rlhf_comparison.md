@@ -2,7 +2,7 @@
 layout: page
 title: RLHF for Very Small LLMs
 description: A project comparing various RLHF methods for GPT-2 small.
-img: assets/img/rlhf_project.png
+img: assets/img/rlhf_project.jfif
 importance: 1
 category: graduate
 ---
