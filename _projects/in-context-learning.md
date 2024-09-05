@@ -22,4 +22,4 @@ category: graduate
 * **Continuation:** I intend to resume work on this project in the future and design more conclusive tests supporting the hypothesis that in context learning can be viewed as Bayesian inference over priors learnt during training.
 
 ### Code
-[Link to repository here.](https://github.com/kkanarios32/TaxonomyRLHF)
+[Link to repository here.](https://github.com/Chinmaya-Kausik/in-context-learning-small/)
