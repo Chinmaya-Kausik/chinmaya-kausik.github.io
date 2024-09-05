@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Empirical Comparison of RLHF Methods for Small Models
+title: RLHF for Very Small LLMs
 description: A project comparing various RLHF methods for GPT-2 small.
 img: assets/img/rlhf_project.png
 importance: 1
