@@ -15,11 +15,11 @@ category: graduate
 * However, the testing of these methods is not quite standardized and we lack a comprehensive large scale empirical comparison of these methods. Most papers are incentivized to make their method look good, and the testing frameworks 
 
 ### What I did
-* As a first step towards conducting a comprehensive study of RLHF for small LLMs, I designed a project for testing the performance of DPO, PPO and KTO on reddit post summarization using GPT-2 small. It is notable that the original KTO paper did not test on reddit post summarization when comparing to DPO and PPO.
-* I ran initial tests using HuggingFace's TRL (Transformer Reinforcement Learning) repository, but the trainers written were slow even with PEFT, had some memory leak issues, and weren't optimized for low memory resources (we could only get one A100 GPU from the university under a reasonable wait time).
-* We wrote our own code for trainers in JAX, building on top of [this respository](https://github.com/vwxyzjn/lm-human-preference-details) discussing implementation details of RLHF using PPO. I wrote and executed the trainers for DPO and KTO in JAX.
-* I designed a synthetic task of learning family trees from a description of a family, and successfully trained GPT-2 small to accomplish the task. There was not much difference in quality here, since the task was somewhat simple.
-* I intend to continue working on this project in the future and scale up the comparison involved.
+* **Designing the project, choosing an LLM task:** As a first step towards conducting a comprehensive study of RLHF for small LLMs, I designed a project for testing the performance of DPO, PPO and KTO on reddit post summarization using GPT-2 small. It is notable that the original KTO paper did not test on reddit post summarization when comparing to DPO and PPO.
+* **Testing HuggingFace trainers:** I ran initial tests using HuggingFace's TRL (Transformer Reinforcement Learning) repository, but the trainers written were slow even with PEFT, had some memory leak issues, and weren't optimized for low memory resources (we could only get one A100 GPU from the university under a reasonable wait time).
+* **Writing trainers from scratch in JAX:** We wrote our own code for trainers in JAX, building on top of [this respository](https://github.com/vwxyzjn/lm-human-preference-details) discussing implementation details of RLHF using PPO. I wrote and executed the trainers for DPO and KTO in JAX.
+* **Designing a synthetic task:** I designed a synthetic task of learning family trees from a description of a family, and successfully trained GPT-2 small to accomplish the task. There was not much difference in quality here, since the task was somewhat simple.
+* **Continuation:** I intend to resume work on this project in the future and scale up the comparison involved.
 
 ### Code
 [Link to repository here.](https://github.com/kkanarios32/TaxonomyRLHF)
