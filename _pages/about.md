@@ -30,7 +30,7 @@ Check out my [papers](https://chinmaya-kausik.github.io/papers), [projects](http
 <details markdown="1">
   <summary markdown="span"> <b> What am I doing these days? </b></summary>
   
-  * Interning at Microsoft in the advertiser optimization team under Ajith Moparthi, working on bidding algorithms and value maximization!
+  * Writing a paper based on my internship at Microsoft in the advertiser optimization team under Ajith Moparthi! I designed and implemented a fast algorithm for updating models used for advertiser bidding.
   * Collaborating with Yonathan Efroni (Meta), Aadirupa Saha (Apple), Nadav Merlis (ENSEA) on algorithms for bandit and reinforcement learning algorithms with feedback at varying costs and accuracies, also called multi-fidelity feedback.
   * Thinking about principled approaches to data collection and learning for RLHF under real-world considerations.
   * Formulating problems in learning under latent information and nonstationarity in bandits.
