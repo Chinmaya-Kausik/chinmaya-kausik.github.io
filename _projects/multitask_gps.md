@@ -26,14 +26,14 @@ curve vs faith in noisy auction data, when making updates.
 higher bid typically means more spend, for example.
     - Lower latency: Want to support hourly as well as daily adjustments in models.
     - Low data regime: Only have a few datapoints per map.
-* I worked with linear combinations of non-linear “basis functions” to represent hourly dual-KPI curves. This can be thought of as a linear representation in basis function space. I modeled these representations as GPs as a function of hour.
+* **Represented curves linearly in function space:** I worked with linear combinations of non-linear “basis functions” to represent hourly dual-KPI curves. This can be thought of as a linear representation in basis function space. I modeled these representations as GPs as a function of hour.
 * **Punchline:** KPI(t,d) = SUM {coeff(t) * basis_func(d)} + noise. The noise level controls faith in model.
-* I derived the update rule for representations given real auction data
-* Pipeline:
+* **Derived update rule:** I derived the update rule for representations given real auction data
+* **Designed and implemented a new KPI prediction pipeline:**
      - Fit a prior using Excalibur curves
      - Make posterior updates using real auction data
      - Use posterior mean of linear representation to predict KPI
-* A noise hyperparameter trades off faith in prior vs faith in signal, can be tuned using any performance metric of choice (e.g. MSE prediction error).
+* **Tuned hyperparameter to calibrate faith in signal:** A noise hyperparameter trades off faith in prior vs faith in signal, can be tuned using any performance metric of choice (e.g. MSE prediction error for my experiments).
 
 ### Code
 [Link to repository.](https://github.com/Chinmaya-Kausik/multitask-gp-dot-product-samples) You can find a version of my final presentation with sensitive data removed at [this link](https://drive.google.com/file/d/1UIfWWJ2NSOSY1N9zlWRHHM2Qa0_LMaxV/view?usp=sharing).
