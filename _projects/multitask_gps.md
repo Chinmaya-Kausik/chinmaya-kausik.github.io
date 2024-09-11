@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Updating Autobidding Models in Near-Real Time using Gaussian Processes
+title: Updating Autobidding Models in Near-Real Time
 description: Designed and implemented a new algorithm for making hourly updates to predictive curves used for autobidding in ad auctions. Involved using multitask Gaussian processes and theoretically deriving a new exact inference rule.
 img: assets/img/multitask_gps_project.PNG
 importance: 1
