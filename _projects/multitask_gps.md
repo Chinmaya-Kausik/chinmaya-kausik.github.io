@@ -8,7 +8,7 @@ category: graduate
 ---
 
 ### Introduction
-* This is work done during my internship in the Autobidding team at Microsoft Ads, under Ajith Moparthi and Yannis Exarchos, in the Advanced Reasoning Group led by Patrick Jordan.
+* This is work done during my internship in the Autobidding team at Microsoft Ads, under Ajith Moparthi and Yannis Exarchos. The team is a part of the Advanced Reasoning Group at Microsoft Ads, led by Patrick Jordan.
 * Whenever you click on a page or engage with content with advertising potential, a small auction is triggered where automated agents from advertisers bid for your ad impression in an "ad exchange." The winner of the auction gets to place their ad on your page or in sync with your content.
 * Autobidding teams bid for an ad impression on behalf of an advertiser. Better bids means better performance, means happier advertisers.
 * The best bid is determined by solving an optimization problem established in [this paper](https://research.google/pubs/autobidding-with-constraints/). This optimization problem gives rise to a dual variable, and the optimal dual determines the best bid.
