@@ -1,7 +1,7 @@
 ---
 layout: page
 title: RLHF for Very Small LLMs
-description: A project comparing various RLHF methods for GPT-2 small.
+description: Compared various RLHF methods for summarization using GPT-2 small. Implemented trainers from scratch in JAX.
 img: assets/img/rlhf_project.jfif
 importance: 1
 category: graduate
