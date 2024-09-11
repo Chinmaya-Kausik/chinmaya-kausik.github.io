@@ -28,7 +28,7 @@ higher bid typically means more spend, for example.
     - Low data regime: Only have a few datapoints per map.
 * **Represented curves linearly in function space:** I worked with linear combinations of non-linear “basis functions” to represent hourly dual-KPI curves. This can be thought of as a linear representation in basis function space. I modeled these representations as GPs as a function of hour.
 * **Punchline:** KPI(t,d) = SUM {coeff(t) * basis_func(d)} + noise. The noise level controls faith in model.
-* **Derived update rule:** I derived the update rule for representations given real auction data
+* **Derived update rule:** I derived the update rule for representations given real auction data. The subtlety is that while the GP is given by a vector coeffs(t), we don't get noisy samples not of the vector itself. We get samples of the KPI, which is its **dot product** with the vector basis_funcs(d). I derived an exact inference rule for multitask GPs given dot product samples.
 * **Designed and implemented a new KPI prediction pipeline:**
      - Fit a prior using Excalibur curves
      - Make posterior updates using real auction data
