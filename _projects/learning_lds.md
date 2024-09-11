@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Learning Mixtures of Linear Dynamical Systems
-description: A project on unsupervised clustering of trajectories drawn from linear dynamical systems
+description: Designed, implemented and reproduced experiments for unsupervised clustering of trajectories drawn from linear dynamical systems.
 img: assets/img/chen-and-poor.png
 importance: 1
 category: graduate
