@@ -35,5 +35,5 @@ higher bid typically means more spend, for example.
      - Use posterior mean of linear representation to predict KPI
 * **Tuned hyperparameter to calibrate faith in signal:** A noise hyperparameter trades off faith in prior vs faith in signal, can be tuned using any performance metric of choice (e.g. MSE prediction error for my experiments).
 
-### Code
+### Code and Presentation
 [Link to repository.](https://github.com/Chinmaya-Kausik/multitask-gp-dot-product-samples) You can find a version of my final presentation with sensitive data removed at [this link](https://drive.google.com/file/d/1UIfWWJ2NSOSY1N9zlWRHHM2Qa0_LMaxV/view?usp=sharing).
