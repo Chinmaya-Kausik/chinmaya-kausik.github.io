@@ -7,6 +7,8 @@ importance: 1
 category: graduate
 ---
 
+Link to JAX repository [here](https://github.com/kkanarios32/TaxonomyRLHF). Link to HuggingFace repository [here](https://github.com/Chinmaya-Kausik/RLHF-comparison). You can find a report on this project at [this link](https://drive.google.com/file/d/119ZvgQtRXyiokOT_iQsI-Dyrlk2JFwgT/view?usp=sharing).
+
 ### Introduction
 * The training of large language models and the use of reinforcement learning to train all kinds of agents have a shared challenge - alignment. That is, how do we align outcomes to "human intentions" without accidentally creating unwanted behavior?
 * Historically, large language models have been trained using supervised methods with hand-designed loss functions, while reinforcement learning has relied on the subtle art of reward shaping (hand-designed reward functions). This often creates a game of whack-a-mole where engineers and scientists chase out problems with existing loss or reward functions, only to discover a new problem with their solution.
@@ -20,6 +22,3 @@ category: graduate
 * **Writing trainers from scratch in JAX:** We wrote our own code for trainers in JAX, building on top of [this respository](https://github.com/vwxyzjn/lm-human-preference-details) discussing implementation details of RLHF using PPO. I wrote and executed the trainers for DPO and KTO in JAX.
 * **Designing a synthetic task:** I designed a synthetic task of learning family trees from a description of a family, and successfully trained GPT-2 small to accomplish the task. There was not much difference in quality here, since the task was somewhat simple.
 * **Continuation:** I intend to resume work on this project in the future and scale up the comparison involved.
-
-### Code and Report
-Link to JAX repository [here](https://github.com/kkanarios32/TaxonomyRLHF). Link to HuggingFace repository [here](https://github.com/Chinmaya-Kausik/RLHF-comparison). You can find a report on this project at [this link](https://drive.google.com/file/d/119ZvgQtRXyiokOT_iQsI-Dyrlk2JFwgT/view?usp=sharing).
