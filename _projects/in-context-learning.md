@@ -7,6 +7,8 @@ importance: 1
 category: graduate
 ---
 
+[Link to repository here.](https://github.com/Chinmaya-Kausik/in-context-learning-small/) You can find some quick notes I took on the outcomes of this project [here](https://drive.google.com/file/d/159J-xDrdsVdrDzcy4Nr_MDOWoMCuvUUu/view?usp=sharing).
+
 ### Introduction
 * Large language models show the surprising ability to learn in-context - that is, given a few examples of a task in their "context" or prompt, they can perform the task on new examples **without fresh training** on the task.
 * This is a priori an almost miraculous phenomenon and has been extensively studied ever since its discovery. In particular, [Garg et al](https://arxiv.org/pdf/2208.01066) studied the ability of small transformer models to learn simple functions in context.
@@ -20,6 +22,3 @@ category: graduate
 * **Developing a hypothesis for in-context learning:** This signals that the transformer was behaving as if it had _learnt the prior over tasks_, and was perhaps merely performing Bayesian inference over tasks when learning in context.
 * **Supporting hypothesis by training over a small discrete task distribution:** I also performed this experiment using weights sampled from a discrete distribution with small finite support. In this case, the transformer learned the weights with even fewer samples in general, further supporting this hypothesis.
 * **Continuation:** I intend to resume work on this project in the future and design more conclusive tests supporting the hypothesis that in context learning can be viewed as Bayesian inference over priors learnt during training.
-
-### Code
-[Link to repository here.](https://github.com/Chinmaya-Kausik/in-context-learning-small/) You can find some quick notes I wrote up [here](https://drive.google.com/file/d/159J-xDrdsVdrDzcy4Nr_MDOWoMCuvUUu/view?usp=sharing).
