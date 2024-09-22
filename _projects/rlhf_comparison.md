@@ -22,4 +22,4 @@ category: graduate
 * **Continuation:** I intend to resume work on this project in the future and scale up the comparison involved.
 
 ### Code
-[Link to repository here.](https://github.com/kkanarios32/TaxonomyRLHF)
+[Link to repository here.](https://github.com/kkanarios32/TaxonomyRLHF) You can find my report at [this link](https://drive.google.com/file/d/119ZvgQtRXyiokOT_iQsI-Dyrlk2JFwgT/view?usp=sharing).
