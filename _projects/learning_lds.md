@@ -23,4 +23,4 @@ category: graduate
 * **Inspired original published research:** This also related to [my own work](https://arxiv.org/abs/2211.09403) on clustering time series data under a Markov model assumption, which was **selected for a live oral presentation at ICML 2023,** along with 4 other papers in our category.
 
 ### Code
-As mentioned above, the repository can be used to perform time series clustering under a linear dynamical system model. [Link to the repository.](https://github.com/Chinmaya-Kausik/learning_mixtures_lds_py)
+As mentioned above, the repository can be used to perform time series clustering under a linear dynamical system model. Link to the repository [here](https://github.com/Chinmaya-Kausik/learning_mixtures_lds_py). You can find a report on this project [here](https://github.com/Chinmaya-Kausik/learning_mixtures_lds_py/blob/main/EECS_553_Final_Project_Report.pdf).
