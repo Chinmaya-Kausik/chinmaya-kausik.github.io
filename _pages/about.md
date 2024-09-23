@@ -17,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 Hi there! I'm Chinmaya Kausik, a 3rd year mathematics Ph.D. candidate at UMich working on sequential decision making, statistics, optimization and machine learning. I am being co-advised by [Prof. Ambuj Tewari](https://ambujtewari.github.io/) and [Prof. Martin Strauss](https://lsa.umich.edu/math/people/faculty/martinjs.html).
 
-Check out my [papers](https://chinmaya-kausik.github.io/papers), [projects](https://chinmaya-kausik.github.io/projects), and [personal interests](https://chinmaya-kausik.github.io/personal)!
+You can find my resume at [this link](https://drive.google.com/file/d/1iSRJ5QqrAIKDPMs_gJM9O_S5stRTzZPo/view?usp=sharing). Check out my [papers](https://chinmaya-kausik.github.io/papers), [projects](https://chinmaya-kausik.github.io/projects), and [personal interests](https://chinmaya-kausik.github.io/personal)!
 
 <details markdown="1">
   <summary markdown="span"> <b> What do I care about, academically? </b> </summary>
