@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Comparing Mamba, Attention and Mamba-Attention Hybrids
+title: Comparing Mamba, Attention and their Hybrids
 description: Studying length generalization in Mamba, attention-based transformers, and hybrids of both for associative recall and related tasks.
 img: assets/img/length_generalization_ssms.jpeg
 importance: 1
