@@ -24,7 +24,7 @@ You can find my resume at [this link](https://drive.google.com/file/d/1iSRJ5QqrA
 <details markdown="1">
   <summary markdown="span"> <b> What do I care about, academically? </b> </summary>
   
-  * **Tackling tangible, real-world questions with a principled mathematical approach.** These days, my work focuses on sequential decision making under various settings - offline-to-online transfer, partial observability/latent information and non-standard feedback and reward models. I also have side projects in deep learning. On the other hand, a lot of my undergraduate background was in geometry, topology and dynamics, with work in computer-assisted topology and geometry. 
+  * **Tackling tangible, real-world questions with a principled mathematical approach.** These days, my research focuses on sequential decision making under various settings - offline-to-online transfer, partial observability/latent information and non-standard feedback and reward models. I also have side projects in deep learning. On the other hand, a lot of my undergraduate background was in geometry, topology and dynamics, with work in computer-assisted topology and geometry. 
   * **Increasing accessibility to and in higher mathematics and creating communities** where ideas cross pollinate and people pull each other up. I have started the Stats, Physics, Astronomy, Math (SPAM) graduate student social initiative at the University of Michigan. I also co-founded and co-organize [Monsoon Math Camp](https://www.monsoonmath.org). I have also been involved in building and expanding other mathematical communities, like platforms for the PolyMath REU, DRP programs and the undergraduate math organization at IISc, etc.
 </details>
   
