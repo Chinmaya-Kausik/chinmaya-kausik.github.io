@@ -17,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 Hi there! I'm Chinmaya Kausik, a 3rd year mathematics Ph.D. candidate at UMich working on machine learning, statistics, optimization and sequential decision-making. I am being co-advised by [Prof. Ambuj Tewari](https://ambujtewari.github.io/) and [Prof. Martin Strauss](https://lsa.umich.edu/math/people/faculty/martinjs.html).
 
-I design and implement algorithms, and provide theoretical and empirical guarantees on their performance. My focus is on reinforcement learning, bandits and RLHF for LLMs and transformer agents. Lately, I have also been working on personal projects involving other aspects of sequence models like LLMs, transformers, state space models. 
+I design and implement algorithms, and provide theoretical and empirical guarantees on their performance. My focus is on reinforcement learning, bandits and RLHF for LLMs and transformer agents. Lately, my focus has also expanded to include LLM agents and helping them plan and digest long contexts. I am also working on personal projects involving other aspects of sequence models like LLMs, transformers, state space models. 
 
 You can find my resume at [this link](https://drive.google.com/file/d/1iSRJ5QqrAIKDPMs_gJM9O_S5stRTzZPo/view?usp=sharing). Check out my [papers](https://chinmaya-kausik.github.io/papers), [projects](https://chinmaya-kausik.github.io/projects), and [personal interests](https://chinmaya-kausik.github.io/personal)!
 
@@ -31,6 +31,7 @@ You can find my resume at [this link](https://drive.google.com/file/d/1iSRJ5QqrA
 <details markdown="1">
   <summary markdown="span"> <b> What am I doing these days? </b></summary>
   
+  * Working on my internship at Netflix, where I am focusing on post-training LLM agents to help them reason about very long contexts! This would apply to helping SWE agents work with large codebases, helping generative recommenders handle massive catalogues, etc.
   * Writing a paper based on my internship at Microsoft in the advertiser optimization team under Ajith Moparthi! I designed and implemented a fast algorithm for updating models used for advertiser bidding.
   * Collaborating with Yonathan Efroni (Meta), Aadirupa Saha (Apple), Nadav Merlis (ENSEA) on algorithms for bandit and reinforcement learning algorithms with feedback at varying costs and accuracies, also called multi-fidelity feedback.
   * Thinking about principled approaches to data collection and learning for RLHF under real-world considerations.
