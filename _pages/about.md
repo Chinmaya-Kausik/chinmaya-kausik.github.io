@@ -17,12 +17,12 @@ social: true  # includes social icons at the bottom of the page
 ---
 Hi there! I'm Chinmaya Kausik, a 4th year mathematics Ph.D. candidate at UMich working on machine learning, statistics, optimization and sequential decision-making. I am being co-advised by [Prof. Ambuj Tewari](https://ambujtewari.github.io/) and [Prof. Martin Strauss](https://lsa.umich.edu/math/people/faculty/martinjs.html).
 
-I design and implement algorithms, and provide theoretical and empirical guarantees on their performance. My focus is on reinforcement learning, bandits and RLHF for LLMs and transformer agents. Lately, my focus has expanded to include other aspects of LLM agents, such as helping them plan and digest long contexts. I am also working on personal projects involving other aspects of sequence models like LLMs, transformers, state space models. 
+I **design and implement algorithms**, and provide theoretical and empirical guarantees on their performance. My focus is on reinforcement learning, bandits and RLHF for LLMs and transformer agents. Lately, my focus has expanded to include other aspects of LLM agents, such as helping them plan and digest long contexts. I am also working on personal projects involving other aspects of sequence models like LLMs, transformers, state space models. 
 
 You can find my resume at [this link](https://drive.google.com/file/d/1iSRJ5QqrAIKDPMs_gJM9O_S5stRTzZPo/view?usp=sharing). Check out my [papers](https://chinmaya-kausik.github.io/papers), [projects](https://chinmaya-kausik.github.io/projects), and [personal interests](https://chinmaya-kausik.github.io/personal)!
 
 <details markdown="1">
-  <summary markdown="span"> <b> What do I care about, academically? </b> </summary>
+  <summary markdown="span"> <b> What do I care about, broadly? </b> </summary>
   
   * **Tackling tangible, real-world questions with a principled mathematical approach.** These days, my research focuses on sequential decision making under various settings - offline-to-online transfer, partial observability/latent information and non-standard feedback and reward models. I also have side projects in deep learning. On the other hand, a lot of my undergraduate background was in geometry, topology and dynamics, with work in computer-assisted topology and geometry. 
   * **Increasing accessibility to and in higher mathematics and creating communities** where ideas cross pollinate and people pull each other up. I have started the Stats, Physics, Astronomy, Math (SPAM) graduate student social initiative at the University of Michigan. I also co-founded and co-organize [Monsoon Math Camp](https://www.monsoonmath.org). I have also been involved in building and expanding other mathematical communities, like platforms for the PolyMath REU, DRP programs and the undergraduate math organization at IISc, etc.
