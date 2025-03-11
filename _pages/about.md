@@ -17,7 +17,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 Hi there! I'm Chinmaya Kausik, a 4th year mathematics Ph.D. candidate at UMich working on machine learning, statistics, optimization and sequential decision-making. I am being co-advised by [Prof. Ambuj Tewari](https://ambujtewari.github.io/) and [Prof. Martin Strauss](https://lsa.umich.edu/math/people/faculty/martinjs.html).
 
-I **design and implement algorithms and AI agents**, and provide theoretical and empirical guarantees on their performance. My work spans reinforcement learning, bandits, RLHF and designing as well as post-training LLM and transformer agents. I am also working on personal projects involving other aspects of sequence models like LLMs, transformers, state space models. 
+I **design and implement algorithms and principled AI agents**, and provide theoretical and empirical guarantees on their performance. My work spans reinforcement learning, bandits, RLHF and designing as well as post-training LLM agents and transformer agents. I am also working on personal projects involving other aspects of sequence models like LLMs, transformers, state space models. 
 
 You can find my resume at [this link](https://drive.google.com/file/d/1iSRJ5QqrAIKDPMs_gJM9O_S5stRTzZPo/view?usp=sharing). Check out my [papers](https://chinmaya-kausik.github.io/papers), [projects](https://chinmaya-kausik.github.io/projects), and [personal interests](https://chinmaya-kausik.github.io/personal)!
 
