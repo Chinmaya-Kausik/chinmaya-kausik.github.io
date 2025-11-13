@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Mathematics Ph.D. Student, University of Michigan. <a href="https://drive.google.com/file/d/1iSRJ5QqrAIKDPMs_gJM9O_S5stRTzZPo/view?usp=sharing" target="_blank">Resume</a>
+subtitle: Mathematics Ph.D. Student, University of Michigan. <a href="https://drive.google.com/file/d/1U_Qh2MV6jwS4IX4aOgttzgx4_ehRMV7Z/view?usp=sharing" target="_blank">Resume</a>
 profile:
   align: right
   image: prof_pic.jpg
