@@ -5,9 +5,15 @@ description: Conducted a deeper examination of in-context learning for simple fu
 img: assets/img/in_context_learning_project.png
 importance: 1
 category: graduate
+technologies: [Python, PyTorch, Transformers, JAX]
+duration: "Fall 2023"
+collaborators: []
+status: completed
 ---
 
-[Link to repository here.](https://github.com/Chinmaya-Kausik/in-context-learning-small/) You can find some quick notes I took on the outcomes of this project [here](https://drive.google.com/file/d/159J-xDrdsVdrDzcy4Nr_MDOWoMCuvUUu/view?usp=sharing), although I recommend reading this page first.
+**Links:**
+- [GitHub Repository](https://github.com/Chinmaya-Kausik/in-context-learning-small/)
+- [Project Notes](https://drive.google.com/file/d/159J-xDrdsVdrDzcy4Nr_MDOWoMCuvUUu/view?usp=sharing)
 
 ### Introduction
 * Large language models show the surprising ability to learn in-context - that is, given a few examples of a task in their "context" or prompt, they can perform the task on new examples **without fresh training** on the task.

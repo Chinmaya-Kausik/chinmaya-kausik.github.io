@@ -7,7 +7,8 @@ importance: 1
 category: graduate
 ---
 
-Link to repository [here](https://github.com/Chinmaya-Kausik/mamba_attention_length_generalization).
+**Links:**
+- [GitHub Repository](https://github.com/Chinmaya-Kausik/mamba_attention_length_generalization)
 
 ### Introduction
 1. Attention-based transformer models use a data-dependent averaging of features at every layer to decide which features to "pay more attention to." This is in contrast to most other popular deep learning architectures, where features are aggregated at each layer in a data-independent way, determined by the weights of the model.

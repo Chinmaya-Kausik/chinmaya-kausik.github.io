@@ -5,9 +5,16 @@ description: Compared various RLHF methods for summarization using GPT-2 small. 
 img: assets/img/rlhf_project.jfif
 importance: 1
 category: graduate
+technologies: [Python, JAX, HuggingFace, PyTorch, Transformers]
+duration: "Spring 2024"
+collaborators: ["Konstantinos Kanarios"]
+status: ongoing
 ---
 
-Link to JAX repository [here](https://github.com/kkanarios32/TaxonomyRLHF). Link to HuggingFace repository [here](https://github.com/Chinmaya-Kausik/RLHF-comparison). You can find a report on this project at [this link](https://drive.google.com/file/d/119ZvgQtRXyiokOT_iQsI-Dyrlk2JFwgT/view?usp=sharing).
+**Links:**
+- [JAX Implementation](https://github.com/kkanarios32/TaxonomyRLHF)
+- [HuggingFace Implementation](https://github.com/Chinmaya-Kausik/RLHF-comparison)
+- [Project Report](https://drive.google.com/file/d/119ZvgQtRXyiokOT_iQsI-Dyrlk2JFwgT/view?usp=sharing)
 
 ### Introduction
 * The training of large language models and the use of reinforcement learning to train all kinds of agents have a shared challenge - alignment. That is, how do we align outcomes to "human intentions" without accidentally creating unwanted behavior?

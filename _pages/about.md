@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Mathematics Ph.D. Student, University of Michigan.
+subtitle: Mathematics Ph.D. Student, University of Michigan. <a href="https://drive.google.com/file/d/1iSRJ5QqrAIKDPMs_gJM9O_S5stRTzZPo/view?usp=sharing" target="_blank">Resume</a>
 profile:
   align: right
   image: prof_pic.jpg
@@ -15,11 +15,11 @@ news: true  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-Hi there! I'm Chinmaya Kausik, a 4th year mathematics Ph.D. candidate at UMich working on machine learning, statistics, optimization and sequential decision-making. I am being co-advised by [Prof. Ambuj Tewari](https://ambujtewari.github.io/) and [Prof. Martin Strauss](https://lsa.umich.edu/math/people/faculty/martinjs.html).
+Hi there! I'm Chinmaya Kausik, a 5th year mathematics Ph.D. candidate at UMich working on sequential decision-making under uncertainty, ranging across reinforcement learning, bandits, RLHF and LLM agents. I am being co-advised by [Prof. Ambuj Tewari](https://ambujtewari.github.io/) and [Prof. Martin Strauss](https://lsa.umich.edu/math/people/faculty/martinjs.html).
 
 I design and implement principled algorithms and agents, and provide theoretical and empirical guarantees on their performance. My work spans reinforcement learning, bandits, RLHF, and designing as well as post-training LLM agents. I am also working on personal projects involving other aspects of sequence models like LLMs, transformers, state space models. 
 
-You can find my resume at [this link](https://drive.google.com/file/d/1iSRJ5QqrAIKDPMs_gJM9O_S5stRTzZPo/view?usp=sharing). Check out my [papers](https://chinmaya-kausik.github.io/papers), [projects](https://chinmaya-kausik.github.io/projects), and [personal interests](https://chinmaya-kausik.github.io/personal)!
+You can find my resume at [this link](https://drive.google.com/file/d/1U_Qh2MV6jwS4IX4aOgttzgx4_ehRMV7Z/view?usp=sharing). Check out my [papers](https://chinmaya-kausik.github.io/papers), [projects](https://chinmaya-kausik.github.io/projects), and [personal interests](https://chinmaya-kausik.github.io/personal)!
 
 <details markdown="1">
   <summary markdown="span"> <b> What do I care about, broadly? </b> </summary>
@@ -31,11 +31,10 @@ You can find my resume at [this link](https://drive.google.com/file/d/1iSRJ5QqrA
 <details markdown="1">
   <summary markdown="span"> <b> What am I doing these days? </b></summary>
   
-  * Working on my internship at Netflix, where I am focusing on post-training LLM agents to help them reason about very long contexts! This would apply to helping SWE agents work with large codebases, helping generative recommenders handle massive catalogues, etc.
+  * Working on how we can robustly combine offline models and online interaction, in contrast to combining offline data and online interaction. With pretrained models like LLMs, foundation models for protein folding, etc readily available but lacking guarantees, we need principled sequential decision making algorithms that use offline models that don't have performance guarantees.
+  * Continuing the LLM agent research from my Nteflix internship, where we designed a generic retrieval/memory agent and we are not formalizing the problem to design more informed experiments.
   * Writing a paper based on my internship at Microsoft in the advertiser optimization team under Ajith Moparthi! I designed and implemented a fast algorithm for updating models used for advertiser bidding.
-  * Collaborating with Yonathan Efroni (Meta), Aadirupa Saha (Apple), Nadav Merlis (ENSEA) on algorithms for bandit and reinforcement learning algorithms with feedback at varying costs and accuracies, also called multi-fidelity feedback.
-  * Thinking about principled approaches to data collection and learning for RLHF under real-world considerations.
-  * Formulating problems in learning under latent information and nonstationarity in bandits.
+  
   * Organizing an interdepartmental social initiative, SPAM (Statistics, Physics, Astronomy, Mathematics).
   * Fleshing out ideas for more academic communities like Monsoon Math.
 
@@ -45,13 +44,14 @@ You can find my resume at [this link](https://drive.google.com/file/d/1iSRJ5QqrA
   <summary markdown="span"> <b> What do I want to learn about/do in the future? </b></summary>
    
   _primary goals_
-  * Complete an empirical study of RLHF methods on LLMs of varying size and understand the implementation nuances of major RLHF methods.
+  * Conduct experiments on the efficacy of sequence model architectures with explicit separate latent states (TRMs, HRMs, the free transformer), and conduct an extensive interpretability study of their latent states.
+
+  * Work on designing an agent/model to automatically annotate graded UMich calculus answer sheets, focusing on preventing hallucinations. 
+
   * Work on a large scale applied recommender systems project using the latent bandit algorithms that I designed (LOCAL-UCB and ProBALL-UCB).
-  * Applying ideas from RLHF and bandits to mental health studies that my advisor is involved in.
 
   _side-quests_
-  * Design a codenames bot using one LLM and train it againts players designed using a different LLM.
+  * Design codenames bots at both the agent level and by training them from scratch, both with separate as well as combined spymasters and guessers.
   * Explore the nuances of implementing various RL algorithms in simulated motion settings.
-  * Design meaningful experiments to compare LLM agents trained using language feedback with RL agents trained using numerical feedback, using benchmark frameworks like LLF-bench.
 
  </details>

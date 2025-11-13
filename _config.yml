@@ -8,11 +8,11 @@ middle_name:
 last_name: Kausik
 email: ckausik@umich.edu
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Personal website for Chinmaya Kausik.
+  Chinmaya Kausik - PhD candidate in Mathematics at University of Michigan working on machine learning, reinforcement learning, bandits, RLHF, and sequential decision-making. Research in LLM agents, transformers, and state space models.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: reinforcement learning, bandits, sequential decision-making, AI, ML, machine learning # add your own keywords or leave empty
+keywords: reinforcement learning, bandits, sequential decision-making, RLHF, LLM agents, transformers, state space models, machine learning, AI, deep learning, optimization, statistics, Netflix, Microsoft, University of Michigan # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: website_icon.jpg # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -61,8 +61,8 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
 og_image: # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
@@ -213,7 +213,7 @@ kramdown:
       start_line: 1
 
 # Includes & excludes
-include: ["_pages"]
+include: ["_pages", "demos"]
 exclude:
   - bin/
   - CONTRIBUTING.md
@@ -377,7 +377,7 @@ external_links:
 # MAKE SURE imagemagick is installed and on your PATH before enabling imagemagick. In a terminal, run:
 #   convert -version
 imagemagick:
-  enabled: true # enables responsive images for your site (recommended, see https://github.com/alshedivat/al-folio/issues/537)
+  enabled: false # disabled until ImageMagick is installed (brew install imagemagick)
   widths:
     - 480
     - 800

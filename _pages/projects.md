@@ -3,7 +3,7 @@ layout: page
 permalink: /projects/
 title: Projects
 description: Past unpublished projects.
-display_categories: [graduate, undergraduate]
+display_categories: [graduate, demos, undergraduate]
 horizontal: false
 nav_order: 3
 nav: true
